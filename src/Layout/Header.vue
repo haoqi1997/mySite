@@ -15,7 +15,7 @@ export default {
 
   },
   mounted () {
-    window.addEventListener('scroll', this.handleScroll) // 监听滚动事件，然后用handleScroll这个方法进行相应的处理
+    // window.addEventListener('scroll', this.handleScroll) // 监听滚动事件，然后用handleScroll这个方法进行相应的处理
   },
   methods: {
     handleScroll () {
